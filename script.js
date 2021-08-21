@@ -2,8 +2,7 @@
 var expenceTrack=[] 
 
 function storeElement(){ 
-    // document.querySelector(".btn").addEventListener("click",function(){
-      //taking the type of expence from user and storing into textField
+    
     var text=document.querySelector("#text").value;
 
     //getting the amount from uesr storing into text field 
