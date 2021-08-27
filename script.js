@@ -24,8 +24,6 @@ function storeElement(){
     transactionList.innerHTML=text+" "+amount
     if(amount>0){
         transactionList.className="positive"
-
-        //seprate the expence into income
         document.querySelector("#money-plus").innerHTML="$"+amount
     }
     else{
